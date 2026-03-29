@@ -4,6 +4,7 @@ import tailwindcss from "@tailwindcss/vite"
 import path from "path"
 
 // https://vite.dev/config/
+
 export default defineConfig(({ mode }) => {
   // 1. Muat env file berdasarkan 'mode' (development, production, dll.)
   // npm run dev -> development, npm run build -> production
