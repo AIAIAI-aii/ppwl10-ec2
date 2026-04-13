@@ -5,6 +5,7 @@ WORKDIR /app
 COPY package.json bun.lock ./
 COPY apps/frontend/package.json ./apps/frontend/
 COPY packages/shared/package.json ./packages/shared/
+COPY .env .env
 
 RUN bun install
 
